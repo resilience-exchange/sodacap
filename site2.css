@@ -313,3 +313,5 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--hot); outline-o
 .model h3 { font-size: 26px; margin-top: 8px; }
 .model p { font-size: 15px; line-height: 1.62; color: var(--slate); margin-top: 12px; }
 @media (max-width: 809px) { .models { grid-template-columns: minmax(0, 1fr); } .model + .model { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); } }
+.foot .meta a { color: #fff; border-bottom: 1px solid rgba(159,153,193,.5); }
+.foot .meta a:hover { border-bottom-color: #fff; }
